@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+#separator{
+    border-bottom: 5px solid black;
+}
+.devider{
+    width: 100%;
+    height: 100px;
+}
+.card-img{
+    width: 100%;
+}
+.sub-heading{
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 3px 2px;
+}
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background: cornflowerblue;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+.menu a{
+    margin: 0 3px;
+    padding: 5px;
+    color: crimson;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background: darkblue !important;
+    color: #fff !important;
+}
+
+/* header area ends here */
+/* header area ends here */
+/* header area ends here */
+
+.banner{
+    background: url("img/banner.jpeg");
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    height:80vh ;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.banner::after{
+    z-index: -1;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background:black;
+    opacity: .6 ;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.ban-con{
+    position: absolute;
+    left: 38%;
+    top: 44%;
+    color: #fff;
+    text-align: center;
+}
+
+.ban-con button{
+    padding: 5px 8px;
+    border: 2px solid maroon;
+    background:transparent;
+    color:yellow;
+    margin: 8px 0 ;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 20px;
+}
+.ban-con button:hover{
+    background:maroon ;
+    color: #fff;
+    border-color:#fff ;
+}
+/* hide area.x.. */
+
+#service-area{
+    display: none;
+    padding: 100px 0;
+}
+#about-area{
+    display: none;
+    padding: 100px 0;
+}
+
+#contact-area{
+    display: none;
+    padding: 100px 0;
+}
+
+/* hide area.x.. */
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cards{
+    width: 200px;
+    border:black solid 5px;
+    padding: 4px;
+    height: 350px;
+}
+.form1{
+    text-align: center;
+    width: 100%;
+}
+.form1 input,textarea{
+display: block;
+width: 80%;
+margin:10px auto ;
+font-size: large;
+}
+
+footer{ 
+    text-align: center;
+    padding: 10px 0;
+    background: lightslategray;
+    width: 100%;
+
+}
+
+/* main body css here  */
+.title{
+    position: relative;
+    height: 4rem;
+}
+.title-hr{
+    margin-top: 3rem;
+}
+.shadow-title{
+    position: absolute;
+    left: 27%;
+    top: -200%;
+    font-size: 200px;
+    opacity: .2;
+}
+.shadow-title-2{
+    position: absolute;
+    left: 19%;
+    top: -200%;
+    font-size: 200px;
+    opacity: .2;
+}
+.main-title{
+    position: absolute;
+    left: 39%;
+    top: -45%;
+    text-align: center;
+    width: 320px;
+    background-color: black;
+    padding: 10px 0;
+    text-transform: uppercase;
+    color: darkgreen;
+    border-radius: 20px;
+}
+
+/* .................. */
+
+.ab-content{
+
+}
+.secondary-logo{
+    float: left;
+    height: 150px;
+    width: 150px;
+}
+.secondary-logo img{ 
+    height: 100%;
+    width: 100%;
+}
+.text {
+clear: right;
+text-align: left;
+}
+
+/* ///////additional functional css///////// */
+
+.trigger{
+    display: none;
+}

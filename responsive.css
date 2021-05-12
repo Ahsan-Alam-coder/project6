@@ -1,0 +1,55 @@
+@media only screen and (max-width: 400px){
+        header{
+            flex-direction: column;
+            width: 100%;
+        }
+        .banner{
+            position: relative;
+        }
+        .ban-con{
+            position: absolute;
+            left:14% !important;
+            top: 44%;
+            color: #fff;
+            text-align: center;
+        }
+    
+        .shadow-title{
+            position: absolute;
+            left: 10% !important;
+            top: -183% !important;
+            font-size: 102px !important;
+            opacity: .2;
+        }
+        .shadow-title-2{
+            position: absolute;
+            left: 5% !important;
+            top: -163% !important;
+            font-size: 80px !important;
+            opacity: .2;
+        }
+
+        .main-title{
+            left: 7% !important;
+        }
+        .trigger{
+            text-align: center;
+            display: block !important;
+        }
+        .menu{
+            display: none;
+        }
+        .menu a{
+            display: block !important;
+        }
+
+
+        .myStyle{
+            display: block !important;
+        }
+
+
+
+
+
+    } 
