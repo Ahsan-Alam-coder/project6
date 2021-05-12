@@ -47,7 +47,7 @@ header{
 /* header area ends here */
 
 .banner{
-    background: url("img/banner.jpeg");
+    background: url("banner.jpeg");
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
